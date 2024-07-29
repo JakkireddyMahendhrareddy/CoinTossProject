@@ -1,0 +1,33 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2a139;
+  height: 100vh;
+}
+
+.inner-container {
+  height: 80vh;
+  width: 50vw;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+.img {
+  height: 30vh;
+  width: 20vw;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+}
+.list {
+  margin-right: 20px;
+}
